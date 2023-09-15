@@ -34,7 +34,7 @@ function App() {
     const totalCreditHour = 20-count2;
     if(totalCreditHour<0){
       return Swal.fire(
-        'You do not have sufficient credit!!'
+        'You do not have sufficient credit!! and  more than 20 hours not allowed'
       )
     }
     setcountCredit(count2);
