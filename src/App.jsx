@@ -2,6 +2,7 @@
 import Course from './components/Course/Course'
 import './App.css'
 import { useState } from 'react';
+import Swal from 'sweetalert2';
 
 function App() {
   const [courseName, setCourseName] = useState([])
@@ -15,7 +16,9 @@ function App() {
     let count = course.price
     let count2 = course.credit
     if(isavailable){
-      alert('You have already selected')
+      Swal.fire(
+        'You have already selected!!'
+      )
     }
     else{
 
@@ -30,7 +33,9 @@ function App() {
 
     const totalCreditHour = 20-count2;
     if(totalCreditHour<0){
-      return alert('insufficient credit hours!!')
+      return Swal.fire(
+        'You do not have sufficient credit!!'
+      )
     }
     setcountCredit(count2);
     setremainingCreditHour(totalCreditHour)
