@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/tmX0rfZ/Rectangle-2-2.png",
+    "title": "Introduction to C Programming",
+    "credit": 1,
+    "price": 15000,
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/k203pTm/Rectangle-2-3.png",
+    "title": "Introduction to Algorithms",
+    "credit": 2,
+    "price": 25000,
+    "details": "Build a strong foundation in web development with HTML, CSS, and JavaScript."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/ByRVsGx/Rectangle-2-4.png",
+    "title": "Introduction to C++ for DSA",
+    "credit": 10,
+    "price": 10000,
+    "details": "Explore the world of data science and analytics with Python and machine learning."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/HnHV1mF/Rectangle-3.png",
+    "title": "Basic Data Structures",
+    "credit": 5,
+    "price": 35000,
+    "details": "Learn the fundamentals of graphic design and create stunning visuals."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/3r9rS29/Rectangle-2.png",
+    "title": "Introduction to OOP Python",
+    "credit": 5,
+    "price": 19000,
+    "details": "Build mobile apps for iOS and Android platforms with this comprehensive course."
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/zhwn0Rj/Rectangle-2-5.png",
+    "title": "Software Engineering",
+    "credit": 2,
+    "price": 23000,
+    "details": "Become a digital marketing expert and grow your online presence."
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/5TRWMBb/Rectangle-3-1.png",
+    "title": "AWS, Cloud Computing",
+    "credit": 5,
+    "price": 35000,
+    "details": "Manage your finances effectively and plan for a secure financial future."
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/ns2XRR0/Rectangle-2-1.png",
+    "title": "Database (MySQL)",
+    "credit": 5,
+    "price": 19000,
+    "details": "Dive deep into AI and ML and build intelligent applications."
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/VqfHrK4/Rectangle-2-6.png",
+    "title": "Problem-Solving Part",
+    "credit": 2,
+    "price": 23000,
+    "details": "Unlock your creativity and become a skilled writer with this workshop."
+  }
+]

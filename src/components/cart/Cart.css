@@ -1,0 +1,24 @@
+.Cart-Section {
+  text-align: start;
+}
+.cart-hour {
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: 700;
+}
+.course-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.list-of-course {
+  color: rgba(28, 27, 27, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+}
+.order-list {
+  text-align: start;
+}
+.credit-price {
+  font-size: 16px;
+  font-weight: 500;
+}
