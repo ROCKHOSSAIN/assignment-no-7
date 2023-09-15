@@ -1,20 +1,21 @@
 import './Cart.css'
 const Cart = ({ courseName, totalPrice, countCredit, remainingCreditHour }) => {
     console.log(courseName)
+    let count=1
     return (
         <div className='Cart-Section'>
             <h1 className='cart-hour'>Credit Hour Remaining {remainingCreditHour} hr</h1>
             <hr />
             <h1 className='course-name'>Course Name</h1>
             <div className="Cart-Section">
-                <ol>
+             
                     {
                         courseName.map(cart => (
-                            <li className='list-of-course' key={cart.id}>{cart.title}</li>
+                            <li className='list-of-course' key={cart.id}>{count++}. {cart.title}</li>
 
                         ))
                     }
-                </ol>
+               
                 <hr />
             </div>
             <div>
